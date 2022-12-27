@@ -1,4 +1,4 @@
-.intro__conteiner_title {
+.intro__title {
   max-width: 100%;
   max-height: 58px;
   font-style: normal;
@@ -10,12 +10,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .intro__conteiner_title {
+  .intro__title {
     max-height: 58px;
   } }
 
 @media screen and (max-width: 425px) {
-  .intro__conteiner_title {
+  .intro__title {
     max-height: 70px;
     font-size: 2rem;
     line-height: 2.2rem;
