@@ -1,7 +1,7 @@
 .cover__title {
   position: absolute;
-  width: 560px;
-  height: 152px;
+  max-width: 500px;
+  max-height: 152px;
   color: #ffff;
   text-decoration: none;
   font-style: normal;
