@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 425px) {
     .place {
-      max-height: 1042px; 
+      max-height: 1042px;
       grid-template-columns: 100%;
       grid-template-rows: 2.4% 4.4% 31% 52.3%;
       grid-row-gap: 32px;
