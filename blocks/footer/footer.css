@@ -2,7 +2,7 @@
   box-sizing: border-box;
   max-width: 92.5%;
   max-height: 18px;
-  margin: 92px 48px 24px 48px; 
+  margin: 92px 48px 24px 48px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
