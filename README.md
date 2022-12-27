@@ -21,3 +21,7 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+**GitHub**
+
+* [Ссылка на проектную работу "Russian travel"](https://github.com/NikitaProkopenko1/russian-travel.git)

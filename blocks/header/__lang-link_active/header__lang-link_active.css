@@ -1,0 +1,5 @@
+.header__lang-link_active::after {
+ content: "";
+ border-bottom: 1px #FFFFFF;
+ z-index: 1;
+}

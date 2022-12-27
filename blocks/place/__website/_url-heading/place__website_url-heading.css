@@ -1,0 +1,14 @@
+.place__website_url-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  margin-bottom: 12px;
+  max-width: 456px;
+  max-height: 12px;
+}
+
+@media screen and (max-width: 425px) {
+  .place__website_url-heading{
+  max-width: 288px;
+  } }
