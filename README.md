@@ -24,4 +24,4 @@
 
 **GitHub**
 
-* [Ссылка на проектную работу "Russian travel"](https://github.com/NikitaProkopenko1/russian-travel/blob/main/index.html)
+* [Ссылка на проектную работу "Russian travel"](https://nikitaprokopenko1.github.io/russian-travel/)
