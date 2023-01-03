@@ -1,13 +1,13 @@
 .cover__title {
   position: absolute;
-  max-width: 500px;
-  max-height: 152px;
+  max-width: 45.3%;
+  max-height: 20.54%;
   color: #ffff;
   text-decoration: none;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 4.5rem;
+  line-height: normal;
   z-index: 2;
   left: 50%;
   top: 200px;
@@ -18,18 +18,24 @@
 @media screen and (max-width: 1024px) {
   .cover__title {
     top: 195px;
-  } }
+    max-width: 55%;
+    max-height: 24%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .cover__title {
+    min-width: 74%;
+    min-height: 32%;
     top: 115px;
-} }
+  }
+}
 
 @media screen and (max-width: 425px) {
   .cover__title {
     top: 33px;
     font-weight: 900;
     font-size: 2rem;
-    line-height: 2.25rem;
-} }
-
+    line-height: normal;
+  }
+}

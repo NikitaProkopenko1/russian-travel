@@ -7,7 +7,7 @@
   font-size: 1.5rem;
   font-style: normal;
   z-index: 1;
-  }
+}
 
 .header__lang-link:first-child {
   text-decoration-line: underline;
@@ -16,6 +16,7 @@
 
 @media screen and (max-width: 425px) {
   .header__lang-link {
-  font-size: 1.125rem;
-  line-height: 1.25rem;
-  } }
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+}

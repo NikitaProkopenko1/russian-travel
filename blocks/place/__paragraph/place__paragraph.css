@@ -2,21 +2,24 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.125rem;
-  line-height: 163%;
+  line-height: 1.5;
   margin-top: 0;
   margin-bottom: 25px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-  max-width: 352px;
-  max-height: 182px;
-  font-size: 1rem;
-  } }
+    max-width: 352px;
+    max-height: 182px;
+    font-size: 1rem;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .place__paragraph {
-  max-width: 288px;
-  max-height: 208px;
-  font-size: 1rem;
-  } }
+    max-width: 288px;
+    max-height: 208px;
+    font-size: 1rem;
+  }
+}

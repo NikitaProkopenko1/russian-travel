@@ -10,14 +10,17 @@
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 90.6%;
-  } }
+  }
+}
 
 @media screen and (max-width: 768px) {
   .places {
     max-width: 93.75%;
-  } }
+  }
+}
 
 @media screen and (max-width: 425px) {
   .places {
     max-width: 93.75%;
-  } }
+  }
+}

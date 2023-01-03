@@ -2,8 +2,8 @@
   height: 100%;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 1rem;
+  line-height: normal;
   color: #FFFFFF;
   text-decoration: none;
   margin-right: 18px;
@@ -22,8 +22,10 @@
 @media screen and (max-width: 425px) {
   .footer__link {
     margin-bottom: 32px;
-  } 
+    font-size: 1.5rem;
+  }
 
-  .footer__link:last-child{
+  .footer__link:last-child {
     margin-bottom: 48px;
-  } }
+  }
+}

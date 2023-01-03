@@ -7,17 +7,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-.intro {
-   max-width: 90.6%;
-} }
+   .intro {
+      max-width: 90.6%;
+   }
+}
 
 @media screen and (max-width: 768px) {
-.intro {
-   max-width: 90.6%;
-} }
-   
+   .intro {
+      max-width: 90.6%;
+   }
+}
+
 @media screen and (max-width: 425px) {
-.intro {
-   max-width: 100%;
-   max-height: 754px;
-} }
+   .intro {
+      max-width: 90%;
+      max-height: 754px;
+      margin: 64px auto 92px auto;
+   }
+}
