@@ -6,7 +6,6 @@
   line-height: normal;
   opacity: 1;
   max-width: 456px;
-  max-height: 22px;
 }
 
 .place__link:hover {
@@ -20,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .place__link {
     max-width: 288px;
   }

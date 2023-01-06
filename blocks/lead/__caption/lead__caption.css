@@ -1,6 +1,6 @@
 .lead__caption {
   max-height: 1.4%;
-  max-width: 16%;
+  max-width: 100%;
   font-style: normal;
   font-weight: 400;
   font-size: 0.625rem;
@@ -11,24 +11,8 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .lead__caption {
-    max-height: 1.4%;
-    max-width: 18%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__caption {
-    max-height: 1.4%;
-    max-width: 25%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .lead__caption {
-    max-height: 1.4%;
-    max-width: 50%;
     margin-left: 16px;
   }
 }

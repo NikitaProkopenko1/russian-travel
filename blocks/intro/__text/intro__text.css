@@ -1,6 +1,5 @@
 .intro__text {
   max-width: 100%;
-  max-height: 48.5%;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -8,10 +7,4 @@
   margin-top: 0;
   margin-bottom: 33px;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 425px) {
-  .intro__text {
-    max-height: 69%;
-  }
 }

@@ -1,7 +1,7 @@
 .footer {
+  font-family: 'Inter-Regular';
   box-sizing: border-box;
   max-width: 92.5%;
-  max-height: 18px;
   margin: 92px auto 24px auto;
   display: flex;
   flex-direction: row;
@@ -20,10 +20,10 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .footer {
+    font-family: 'Inter-Black';
     max-width: 70%;
-    max-height: 310px;
     flex-direction: column;
     margin: 64px auto 24px 16px;
   }

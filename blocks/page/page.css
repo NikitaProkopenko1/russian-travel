@@ -1,5 +1,4 @@
 .page {
-  font-family: "Inter";
   max-width: 1280px;
   margin: 0 auto;
   background-color: #2A2C2F;
@@ -10,9 +9,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }

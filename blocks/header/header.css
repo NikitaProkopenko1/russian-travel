@@ -1,4 +1,5 @@
 .header {
+  font-family: 'Inter-Regular';
   box-sizing: border-box;
   background-color: #2A2C2F;
   display: flex;
@@ -7,10 +8,6 @@
   max-height: 52px;
   margin: 28px auto 0 auto;
   justify-content: space-between;
-  align-items: center;
-}
-
-.header:last-child {
   align-items: center;
 }
 
@@ -28,7 +25,6 @@
 
 @media screen and (max-width: 425px) {
   .header {
-    max-width: 93.75%;
     max-height: 42px;
     margin: 16px 16px 0 16px;
   }

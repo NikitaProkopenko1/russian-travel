@@ -11,15 +11,13 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
-    max-height: 182px;
     font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .place__paragraph {
-    max-width: 288px;
-    max-height: 208px;
-    font-size: 1rem;
+    max-width: 100%;
+    text-align: justify;
   }
 }
