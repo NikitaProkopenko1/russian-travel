@@ -1,8 +1,6 @@
 .header__lang-links {
-    font-family: 'Inter-Regualar';
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     z-index: 1;
-    max-height: 100%;
 }

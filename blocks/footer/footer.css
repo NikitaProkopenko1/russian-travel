@@ -1,5 +1,6 @@
 .footer {
-  font-family: 'Inter-Regular';
+  font-family: 'Inter';
+  font-weight: 400;
   box-sizing: border-box;
   max-width: 92.5%;
   margin: 92px auto 24px auto;
@@ -22,7 +23,6 @@
 
 @media screen and (max-width: 700px) {
   .footer {
-    font-family: 'Inter-Black';
     max-width: 70%;
     flex-direction: column;
     margin: 64px auto 24px 16px;
