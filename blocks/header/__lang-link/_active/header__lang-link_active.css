@@ -1,0 +1,9 @@
+.header__lang-link_active {
+  text-decoration-line: underline;
+}
+
+.header__lang-link_active::after {
+  content: "";
+  z-index: 1;
+  border-bottom: 1px #FFFFFF solid;
+}

@@ -1,18 +1,26 @@
 .place__image {
+  grid-area: place__image;
   object-fit: cover;
   max-width: 100%;
+  -ms-text-kashida-space: 100%;
   display: block;
   box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 900px) {
   .place__image {
-    max-height: 360px;
+    max-width: 340px;
+    max-height: 340px;
   }
 }
 
-@media screen and (max-width: 370px) and (min-width: 350px) {
+@media screen and (max-width: 600px) {
   .place__image {
-    max-height: 300px;
+    max-width: 320px;
+    max-height: 320px;
   }
 }

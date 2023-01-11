@@ -1,9 +1,10 @@
 .intro {
-   font-family: 'Inter';
+   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
    max-width: 77%;
    display: flex;
    justify-content: flex-start;
    margin: 92px auto 92px auto;
+   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {

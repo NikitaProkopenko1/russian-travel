@@ -1,57 +1,48 @@
 .place {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   list-style: none;
-  max-width: 100%;
+  width: 100%;
   display: grid;
   box-sizing: border-box;
-  grid-template-columns: 47% 46%;
-  grid-template-rows: 13% 70%;
-  grid-row-gap: 7%;
-  grid-column-gap: 4%;
+  grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
+  grid-template-rows: minmax(auto, 152px) minmax(auto, 460px);
+  grid-template-areas: "place__title place__website"
+    "place__image place__paragraph";
+  grid-row-gap: 4em;
+  grid-column-gap: 3.3em;
   margin-bottom: 80px;
+  margin: 0 0 80px 0;
 }
 
-.place:first-child {
-  grid-template-rows: 25% 70%;
-  margin-top: 0;
+.place:last-child {
+  margin-bottom: 0;
 }
 
-.place:nth-child(4) {
-  grid-template-rows: 23% 70%;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1130px) {
   .place {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 16% 76%;
-    grid-row-gap: 8%;
-    grid-column-gap: 4%;
+    grid-column-gap: 2.7em;
+    grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
+    grid-template-rows: minmax(auto, 152px) minmax(auto, 440px);
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 900px) {
+  .place {
+    grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
+    grid-template-rows: minmax(auto, 92px) minmax(340px, 445px);
+    grid-column-gap: 2.3em;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .place {
     grid-template-columns: 100%;
-    grid-template-rows: 3.5% 4.4% 35% 52.3%;
-    grid-row-gap: 3%;
-    margin-bottom: 50px;
-  }
-
-  .place:first-child {
-    grid-template-rows: 3.5% 4.4% 35% 52.3%;
-    margin-top: 0;
-    grid-row-gap: 3%;
-  }
-
-  .place:nth-child(4) {
-    grid-template-rows: 3.5% 4.4% 35% 52.3%;
-    grid-row-gap: 4%;
-  }
-
-  .place:last-child {
-    grid-template-rows: 3.5% 4.4% 35% 52.3%;
-    margin-bottom: 66px;
-    margin-top: 0;
-    grid-row-gap: 3%;
+    grid-template-rows: minmax(auto, 35px) minmax(auto, 46px) minmax(auto, 320px) fit-content(1042px);
+    grid-template-areas: "place__title"
+      "place__website"
+      "place__image"
+      "place__paragraph";
+    grid-row-gap: 2.7em;
+    margin: 0 0 50px 0;
   }
 }

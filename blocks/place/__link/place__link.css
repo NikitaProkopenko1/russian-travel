@@ -4,13 +4,12 @@
   font-weight: 400;
   font-size: 1.125rem;
   line-height: normal;
-  opacity: 1;
   max-width: 456px;
+  transition: 0.5s;
 }
 
 .place__link:hover {
-  opacity: 0.7;
-  transition: 0.5s;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {

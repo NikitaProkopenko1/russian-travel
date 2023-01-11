@@ -1,6 +1,5 @@
-.intro__conteiner {
-   max-width: 70%;
-   max-height: 100%;
+.intro__container {
+   max-width: 72%;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
@@ -8,13 +7,13 @@
 }
 
 @media screen and (max-width: 1100px) {
-   .intro__conteiner {
+   .intro__container {
       max-width: 75%;
    }
 }
 
 @media screen and (max-width: 900px) {
-   .intro__conteiner {
+   .intro__container {
       max-width: 100%;
    }
 }

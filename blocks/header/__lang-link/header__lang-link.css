@@ -1,15 +1,20 @@
 .header__lang-link {
   box-sizing: border-box;
   color: #FFFFFF;
-  text-decoration: none;
   line-height: 1.75rem;
   font-size: 1.5rem;
   font-style: normal;
   z-index: 1;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 .header__lang-link:first-child {
-  text-decoration-line: underline;
   margin-right: 18px;
 }
 
