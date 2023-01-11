@@ -1,24 +1,27 @@
-.footer {
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 400;
-  box-sizing: border-box;
-  max-width: 92.5%;
-  margin: 92px auto 24px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.footer
+{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 400;
+	justify-content: space-between;
+	margin: 92px auto 24px auto;
+	max-width: 92.5%;
 }
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 90.6%;
-  }
+@media screen and (max-width: 1024px)
+{
+	.footer
+	{
+		max-width: 90.6%;
+	}
 }
-
-@media screen and (max-width: 700px) {
-  .footer {
-    max-width: 70%;
-    flex-direction: column;
-    margin: 64px auto 24px 16px;
-  }
+@media screen and (max-width: 700px)
+{
+	.footer
+	{
+		flex-direction: column;
+		margin: 64px auto 24px 16px;
+		max-width: 70%;
+	}
 }

@@ -1,15 +1,17 @@
-.intro__title {
-  max-width: 100%;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 3.375rem;
-  line-height: normal;
-  margin-bottom: 40px;
-  margin-top: 0;
+.intro__title
+{
+	font-size: 3.375rem;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	margin-bottom: 40px;
+	margin-top: 0;
+	max-width: 100%;
 }
-
-@media screen and (max-width: 650px) {
-  .intro__title {
-    font-size: 2rem;
-  }
+@media screen and (max-width: 650px)
+{
+	.intro__title
+	{
+		font-size: 2rem;
+	}
 }

@@ -1,7 +1,8 @@
-.footer__copyright {
-  font-style: normal;
-  font-size: 0.875rem;
-  line-height: normal;
-  margin: 0;
-  box-sizing: border-box;
+.footer__copyright
+{
+	box-sizing: border-box;
+	font-size: 0.875rem;
+	font-style: normal;
+	line-height: normal;
+	margin: 0;
 }

@@ -1,21 +1,24 @@
-.intro {
-   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-   max-width: 77%;
-   display: flex;
-   justify-content: flex-start;
-   margin: 92px auto 92px auto;
-   box-sizing: border-box;
+.intro
+{
+	box-sizing: border-box;
+	display: flex;
+	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+	justify-content: flex-start;
+	margin: 92px auto 92px auto;
+	max-width: 77%;
 }
-
-@media screen and (max-width: 1024px) {
-   .intro {
-      max-width: 90.6%;
-   }
+@media screen and (max-width: 1024px)
+{
+	.intro
+	{
+		max-width: 90.6%;
+	}
 }
-
-@media screen and (max-width: 600px) {
-   .intro {
-      max-width: 90%;
-      margin: 64px auto 92px auto;
-   }
+@media screen and (max-width: 600px)
+{
+	.intro
+	{
+		margin: 64px auto 92px auto;
+		max-width: 90%;
+	}
 }
