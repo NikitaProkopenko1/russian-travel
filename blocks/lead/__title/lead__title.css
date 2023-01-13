@@ -3,38 +3,32 @@
 	font-size: 6rem;
 	font-style: normal;
 	font-weight: 900;
-	line-height: 106%;
+	line-height: 104%;
 	margin: 0 auto 32px auto;
-	max-width: 75%;
+	max-width: calc(100% - 132px*2);
 	text-align: center;
-}
-@media screen and (max-width: 1140px)
-{
-	.lead__title
-	{
-		max-width: 80%;
-	}
 }
 @media screen and (max-width: 1024px)
 {
 	.lead__title
 	{
-		max-width: 78%;
+		max-width: calc(100% - 104px*2);
 	}
 }
-@media screen and (max-width: 900px)
+@media screen and (max-width: 768px)
 {
 	.lead__title
 	{
-		max-width: 94%;
+		max-width: calc(100% - 24px*2);
 	}
 }
-@media screen and (max-width: 740px)
+@media screen and (max-width: 425px)
 {
 	.lead__title
 	{
+		line-height: 110%;
 		font-size: 2.5rem;
 		margin-bottom: 16px;
-		max-width: 90%;
+		max-width: calc(100% - 16px*2);
 	}
 }

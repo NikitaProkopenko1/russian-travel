@@ -2,11 +2,8 @@
   grid-area: place__image;
   object-fit: cover;
   max-width: 100%;
-  -ms-text-kashida-space: 100%;
   display: block;
   box-sizing: border-box;
-  background-size: cover;
-  background-position: center;
   margin-left: auto;
   margin-right: auto;
 }

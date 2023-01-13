@@ -6,44 +6,32 @@
 	font-weight: 900;
 	line-height: 106%;
 	margin: 0 auto;
-	max-width: 45%;
+	max-width: calc(100% - 312px*2);
 	text-align: center;
 	text-decoration: none;
 	z-index: 2;
 }
-@media screen and (max-width: 1050px)
+@media screen and (max-width: 1024px)
 {
 	.cover__title
 	{
-		min-width: 55%;
+		min-width: calc(100% - 232px*2);
 	}
 }
-@media screen and (max-width: 1040px)
+@media screen and (max-width: 768px)
 {
 	.cover__title
 	{
-		min-width: 45%;
+        font-size: 4.5rem;
+		min-width: calc(100% - 104px*2);
 	}
 }
-@media screen and (max-width: 900px)
+@media screen and (max-width: 600px)
 {
 	.cover__title
 	{
-		min-width: 70%;
-	}
-}
-@media screen and (max-width: 700px)
-{
-	.cover__title
-	{
+		line-height: 109%;
 		font-size: 2rem;
-		min-width: 50%;
-	}
-}
-@media screen and (max-width: 400px)
-{
-	.cover__title
-	{
-		min-width: 75%;
+		min-width: calc(100% - 16px*2);
 	}
 }

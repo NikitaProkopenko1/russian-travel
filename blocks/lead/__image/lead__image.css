@@ -1,26 +1,31 @@
 .lead__image
 {
-	max-height: 61.2%;
-	max-width: 100%;
+	object-fit: cover;
+	max-height: 615px;
+	max-width: 984px;
+	display: block;
+	background-position: center;
 }
 @media screen and (max-width: 1024px)
 {
 	.lead__image
 	{
-		max-height: 60.3%;
+		max-height: 580px;
+		max-width: 928px;
 	}
 }
 @media screen and (max-width: 768px)
 {
 	.lead__image
 	{
-		max-height: 55.7%;
+		max-height: 480px;
+		max-width: 100%;
 	}
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 420px)
 {
 	.lead__image
 	{
-		max-height: 49.3%;
+		max-height: 200px;
     }
 }

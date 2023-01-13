@@ -1,14 +1,5 @@
 .footer__links
 {
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-@media screen and (max-width: 600px)
-{
-	.footer__links
-	{
-		flex-direction: column;
-	}
+	margin: 0;
+	padding: 0;
 }

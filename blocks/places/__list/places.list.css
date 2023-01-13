@@ -1,0 +1,35 @@
+.places__list
+{
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+    max-width: 100%;
+    list-style: none;
+	grid-row-gap: 3em;
+	grid-column-gap: 2.5em;;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 1024px)
+{
+	.places__list
+	{
+		grid-row-gap: 3em;
+		grid-column-gap: 2em;;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.places__list
+	{
+		grid-column-gap: 1.75em;
+	}
+}
+@media screen and (max-width: 425px)
+{
+	.places__list
+	{
+		grid-row-gap: 2em;
+	}
+}

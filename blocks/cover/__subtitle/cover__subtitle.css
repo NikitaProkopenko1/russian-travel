@@ -7,30 +7,31 @@
 	font-weight: 400;
 	line-height: 122%;
 	margin: 0;
-	max-width: 30.4%;
+	max-width: calc(100% - 412px*2);
 	text-align: center;
 	text-decoration: none;
 	z-index: 2;
 }
-@media screen and (max-width: 1160px)
+@media screen and (max-width: 1024px)
 {
 	.cover__subtitle
 	{
-		max-width: 35%;
+		max-width: calc(100% - 332px*2);
 	}
 }
-@media screen and (max-width: 840px)
+@media screen and (max-width: 768px)
 {
 	.cover__subtitle
 	{
-		max-width: 47%;
+		max-width: calc(100% - 204px*2);
 	}
 }
-@media screen and (max-width: 700px)
+@media screen and (max-width: 600px)
 {
 	.cover__subtitle
 	{
+		line-height: 114%;
 		font-size: 0.875rem;
-		min-width: 90%;
+		min-width: calc(100% - 15px*2);
 	}
 }

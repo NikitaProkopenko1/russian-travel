@@ -3,14 +3,9 @@
 	color: #FFFFFF;
 	font-size: 1rem;
 	font-style: normal;
-	line-height: normal;
-	margin-right: 18px;
+	line-height: 112%;
 	text-decoration: none;
 	transition: 0.5s;
-}
-.footer__link:last-child
-{
-	margin-right: 0;
 }
 .footer__link:hover
 {
