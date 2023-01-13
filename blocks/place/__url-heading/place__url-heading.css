@@ -1,5 +1,5 @@
 .place__url-heading {
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-style: normal;
   font-weight: 400;
   font-size: 0.75rem;
@@ -12,6 +12,6 @@
 
 @media screen and (max-width: 550px) {
   .place__url-heading {
-    max-width: 288px;
+      max-width: 288px;
   }
 }

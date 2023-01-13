@@ -1,13 +1,10 @@
-.cover
-{
-	box-sizing: border-box;
-	margin: 0 auto 0 auto;
-	width: calc(100% - 48px*2);
+.cover {
+    box-sizing: border-box;
+    margin: 0 auto 0 auto;
+    width: calc(100% - 48px * 2);
 }
-@media screen and (max-width: 1160px)
-{
-	.cover
-	{
-		width: 100%;
-	}
+@media screen and (max-width: 1160px) {
+    .cover {
+        width: 100%;
+    }
 }

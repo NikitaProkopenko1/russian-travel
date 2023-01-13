@@ -1,25 +1,20 @@
-.footer__link
-{
-	color: #FFFFFF;
-	font-size: 1rem;
-	font-style: normal;
-	line-height: 112%;
-	text-decoration: none;
-	transition: 0.5s;
+.footer__link {
+    color: #ffffff;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 112%;
+    text-decoration: none;
+    transition: 0.5s;
 }
-.footer__link:hover
-{
-	opacity: 0.8;
+.footer__link:hover {
+    opacity: 0.8;
 }
-@media screen and (max-width: 600px)
-{
-	.footer__link
-	{
-		font-size: 1.5rem;
-		margin-bottom: 32px;
-	}
-	.footer__link:last-child
-	{
-		margin-bottom: 48px;
-	}
+@media screen and (max-width: 600px) {
+    .footer__link {
+        font-size: 1.5rem;
+        margin-bottom: 32px;
+    }
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
 }

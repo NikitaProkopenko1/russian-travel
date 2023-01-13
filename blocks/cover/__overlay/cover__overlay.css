@@ -1,60 +1,51 @@
-.cover__overlay
-{
-	align-items: center;
-	background-image: url(../../../images/cover-trains.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-	gap: 32px;
-	justify-content: center;
-	max-width: 100%;
-	min-height: 740px;
-	object-fit: cover;
-	position: relative;
-	text-decoration: none;
-	transition: 0.5s;
-	z-index: 1;
+.cover__overlay {
+    align-items: center;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    gap: 32px;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 740px;
+    object-fit: cover;
+    position: relative;
+    text-decoration: none;
+    transition: 0.5s;
+    z-index: 1;
 }
-.cover__overlay::before
-{
-	background-color: #2A2C2F;
-	bottom: 0;
-	content: "";
-	left: 0;
-	opacity: 0.3;
-	position: absolute;
-	right: 0;
-	top: 0;
-	transition: 200ms;
-	z-index: -1;
+.cover__overlay::before {
+    background-color: #2a2c2f;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 200ms;
+    z-index: -1;
 }
-.cover__overlay:hover::before
-{
-	opacity: 0.8;
+.cover__overlay:hover::before {
+    opacity: 0.8;
 }
-@media screen and (max-width: 1160px)
-{
-	.cover__overlay
-	{
-		max-width: 100%;
-		min-height: 640px;
-	}
+@media screen and (max-width: 1160px) {
+    .cover__overlay {
+        max-width: 100%;
+        min-height: 640px;
+    }
 }
-@media screen and (max-width: 840px)
-{
-	.cover__overlay
-	{
-		min-height: 480px;
-	}
+@media screen and (max-width: 840px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
 }
-@media screen and (max-width: 600px)
-{
-	.cover__overlay
-	{
-		gap: 16px;
-		min-height: 200px;
-	}
+@media screen and (max-width: 600px) {
+    .cover__overlay {
+        gap: 16px;
+        min-height: 200px;
+    }
 }

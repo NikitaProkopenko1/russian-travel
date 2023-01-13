@@ -1,5 +1,5 @@
 .place__link {
-  color: #FFFFFF;
+  color: #ffffff;
   font-style: normal;
   text-decoration: underline;
   font-weight: 400;
@@ -15,12 +15,12 @@
 
 @media screen and (max-width: 768px) {
   .place__link {
-    max-width: 352px;
+      max-width: 352px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .place__link {
-    max-width: 288px;
+      max-width: 288px;
   }
 }

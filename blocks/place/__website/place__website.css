@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 550px) {
   .place__website {
-    max-width: 90%;
-    margin-left: 16px;
+      max-width: 90%;
+      margin-left: 16px;
   }
 }
