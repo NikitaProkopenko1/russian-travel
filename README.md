@@ -5,8 +5,6 @@
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h2 align="center">Подготовил для вас проект "Путешествие по России 🇷🇺"</h2>
 
-<iframe src="https://giphy.com/embed/Ci3I10Qxo9WJq" width="480" height="258" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
 ### Обзор
 * HTML
 * CSS
