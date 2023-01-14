@@ -1,6 +1,7 @@
 .header__logo {
     max-height: 52px;
     max-width: 176px;
+    display: block;
     object-fit: cover;
     z-index: 1;
 }

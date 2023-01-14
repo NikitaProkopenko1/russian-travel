@@ -21,7 +21,7 @@
         min-width: calc(100% - 104px * 2);
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
     .cover__title {
         line-height: 109%;
         font-size: 2rem;
