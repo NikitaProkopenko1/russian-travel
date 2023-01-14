@@ -12,12 +12,12 @@
         max-width: calc(100% - 104px * 2);
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .lead__title {
         max-width: calc(100% - 24px * 2);
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
     .lead__title {
         line-height: 110%;
         font-size: 2.5rem;

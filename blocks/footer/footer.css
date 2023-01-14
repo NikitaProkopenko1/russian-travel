@@ -8,12 +8,13 @@
     margin: 92px auto 24px auto;
     max-width: calc(100% - 48px * 2);
 }
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 768px) {
     .footer {
+        margin-top: 88px;
         max-width: calc(100% - 24px * 2);
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 425px) {
     .footer {
         flex-direction: column;
         margin: 64px auto 24px 16px;

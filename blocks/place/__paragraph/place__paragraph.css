@@ -9,25 +9,21 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-
 .place__paragraph:last-child {
   margin-bottom: 0;
 }
-
 @media screen and (max-width: 1024px) {
   .place__paragraph {
       margin-bottom: 27px;
   }
 }
-
 @media screen and (max-width: 900px) {
   .place__paragraph {
       font-size: 1rem;
       margin-bottom: 25px;
   }
 }
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   .place__paragraph {
       margin: 0 auto 25px auto;
       max-width: 90%;

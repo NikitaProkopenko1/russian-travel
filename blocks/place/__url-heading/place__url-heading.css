@@ -9,9 +9,13 @@
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
   .place__url-heading {
-      max-width: 288px;
+    line-height: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .place__url-heading {
+    max-width: 288px;
   }
 }
