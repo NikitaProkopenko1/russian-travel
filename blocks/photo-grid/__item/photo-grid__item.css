@@ -7,21 +7,18 @@
     margin-left: 0;
     padding: 0;
 }
-
 @media screen and (max-width: 1024px) {
     .photo-grid__item {
         max-height: 225px;
         max-width: 300px;
     }
 }
-
 @media screen and (max-width: 768px) {
     .photo-grid__item {
         max-height: 264px;
         max-width: 352px;
     }
 }
-
 @media screen and (max-width: 425px) {
     .photo-grid__item {
         max-height: 216px;
