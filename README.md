@@ -20,4 +20,4 @@ ________________________
 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-* [Ссылка на проектную работу "Russian travel"](https://nikitaprokopenko1.github.io/russian-travel-index.html/)
+* [Ссылка на проектную работу "Russian travel"](https://prokopenko-nikita-dev.github.io/russian-travel/)
